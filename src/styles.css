@@ -1,0 +1,67 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+.header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 20px;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 10px;
+}
+.header nav ul li a.active {
+  background: rgb(12, 26, 32);
+  color: white;
+}
+
+.body-main {
+  margin-top: 20px;
+  padding: 0px 20px;
+}
+
+.book-card {
+  padding: 10px;
+  border: 1px solid rgb(12, 26, 32);
+  margin: 10px 0px;
+}
+.book-card h3 {
+  margin: 0;
+}
+
+/* body {
+  margin: 0;
+  padding: 0;
+  background-image: url("path/to/your/background-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.search-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+} */
